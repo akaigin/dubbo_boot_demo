@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="boot_consumer" />
+        <module name="boot_elasticsearch" />
+        <module name="boot_provider" />
+        <module name="boot_common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="boot_common" target="1.8" />
+      <module name="boot_consumer" target="1.8" />
+      <module name="boot_elasticsearch" target="1.8" />
+      <module name="boot_provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot_common" options="-parameters" />
+      <module name="boot_consumer" options="-parameters" />
+      <module name="boot_elasticsearch" options="-parameters" />
+      <module name="boot_provider" options="-parameters" />
+    </option>
+  </component>
+</project>

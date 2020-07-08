@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/boot_common/boot_common.iml" filepath="$PROJECT_DIR$/boot_common/boot_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_consumer/boot_consumer.iml" filepath="$PROJECT_DIR$/boot_consumer/boot_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_elasticsearch/boot_elasticsearch.iml" filepath="$PROJECT_DIR$/boot_elasticsearch/boot_elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_provider/boot_provider.iml" filepath="$PROJECT_DIR$/boot_provider/boot_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo_boot_demo.iml" filepath="$PROJECT_DIR$/dubbo_boot_demo.iml" />
+    </modules>
+  </component>
+</project>

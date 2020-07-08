@@ -1,0 +1,23 @@
+server:
+  port: 8052
+
+dubbo:
+  application:
+    name: boot-provider
+  registry:
+    address: 127.0.0.1:2181
+    protocol: zookeeper
+  monitor:
+    protocol: registy
+  #服务提供者暴露端口
+  protocol:
+    name: dubbo
+    port: 20880
+  scan:
+    basePackages: com.akai.provider
+
+rocketmq:
+  name-server: 127.0.0.1:9876 # 自己的RocketMQ服务地址
+  producer:
+    send-message-timeout: 300000
+    group: my-group
