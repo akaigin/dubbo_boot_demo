@@ -33,6 +33,7 @@
         <option value="$PROJECT_DIR$/boot_common/pom.xml" />
         <option value="$PROJECT_DIR$/boot_consumer/pom.xml" />
         <option value="$PROJECT_DIR$/boot_elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/boot_redis/pom.xml" />
       </list>
     </option>
   </component>

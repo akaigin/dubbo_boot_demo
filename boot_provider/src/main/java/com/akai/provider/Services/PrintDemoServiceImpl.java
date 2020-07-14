@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class PrintDemoServiceImpl implements PrintDemoService {
     public void print(){
-        System.out.println("这是一个输出demo");
+        System.out.println("这是一个输出的demo");
     }
 
 
