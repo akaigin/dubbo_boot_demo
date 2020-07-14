@@ -7,10 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="redis" />
+        <module name="common" />
+        <module name="provider" />
+        <module name="boot_redis" />
         <module name="boot_consumer" />
         <module name="boot_elasticsearch" />
         <module name="boot_provider" />
         <module name="boot_common" />
+        <module name="consumer" />
+        <module name="elasticsearch" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +24,12 @@
       <module name="boot_consumer" target="1.8" />
       <module name="boot_elasticsearch" target="1.8" />
       <module name="boot_provider" target="1.8" />
+      <module name="boot_redis" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="consumer" target="1.8" />
+      <module name="elasticsearch" target="1.8" />
+      <module name="provider" target="1.8" />
+      <module name="redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -26,6 +38,12 @@
       <module name="boot_consumer" options="-parameters" />
       <module name="boot_elasticsearch" options="-parameters" />
       <module name="boot_provider" options="-parameters" />
+      <module name="boot_redis" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="consumer" options="-parameters" />
+      <module name="elasticsearch" options="-parameters" />
+      <module name="provider" options="-parameters" />
+      <module name="redis" options="-parameters" />
     </option>
   </component>
 </project>
